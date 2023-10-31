@@ -1,0 +1,31 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    margin: 1px;
+    font-size: 24px; /* Adjust the font size */
+    width: 100px; /* Adjust the width of the buttons */
+    height: 80px; /* Adjust the height of the buttons */
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+  }
+  
+  button:hover {
+    background-color: #000000;
+    color: white;
+  }
+
+  .btn-primary:hover{
+    background-color: white;
+    color: #000000;
+  }
+  .btn-warning:hover{
+    color: #000000;
+  } 
+  
